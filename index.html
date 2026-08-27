@@ -1,389 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIMENSI BAND - UKM Musik UNIDA</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DIMENSI — UKM Musik UNIDA. Musik, cerita, panggung, dan pengalaman yang kami bawa bersama.">
+  <title>DIMENSI — UKM Musik UNIDA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header & Navigation -->
-    <header>
-        <div class="container header-container">
-            <a href="#" class="logo">DIMENSI<span>BAND</span></a>
-            <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#profile" class="active">Profile</a></li>
-                    <li><a href="#gigs">Gigs</a></li>
-                    <li><a href="#instruments">Instruments</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#music">Music</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <div class="cursor-glow" aria-hidden="true"></div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-content">
-            <h1>DIMENSI</h1>
-            <p>UKM Musik UNIDA - Creating Musical Experiences That Last</p>
-            <a href="#gallery" class="btn">Explore Our Gallery</a>
-        </div>
-    </section>
-
-    <!-- Profile Section -->
-    <section id="profile" class="profile">
-        <div class="container">
-            <div class="section-title">
-                <h2 style="color: white;">About Us</h2>
-            </div>
-            <div class="profile-content">
-                <div class="profile-img">
-                    <img src="DIMENSI BAND (105).JPG" alt="DIMENSI Band">
-                </div>
-                <div class="profile-text">
-                    <h3>DIMENSI Band</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolores consectetur labore vel eos, a in autem asperiores, magni reiciendis rerum. Soluta, amet. Pariatur expedita laudantium dolorem deleniti unde porro!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatem esse deserunt cumque aliquid temporibus, reiciendis nostrum voluptate aspernatur fuga delectus eaque provident corrupti modi quibusdam pariatur illum debitis omnis.</p>
-                    <a href="#contact" class="btn">Book Us Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gigs Section -->
-    <section id="gigs">
-        <div class="container">
-            <div class="section-title">
-                <h2>Upcoming Gigs</h2>
-            </div>
-            <div class="gigs-container">
-                <div class="gig-card">
-                    <div class="gig-date">
-                        <h3>June 15, 2023</h3>
-                        <p>8:00 PM</p>
-                    </div>
-                    <div class="gig-info">
-                        <h3>Campus Festival</h3>
-                        <p>UNIDA Main Auditorium</p>
-                        <p>Bogor, Indonesia</p>
-                        <a href="#" class="btn">Get Tickets</a>
-                    </div>
-                </div>
-            <div class="gigs-container">
-                <div class="gig-card">
-                    <div class="gig-date">
-                        <h3>June 15, 2023</h3>
-                        <p>8:00 PM</p>
-                    </div>
-                    <div class="gig-info">
-                        <h3>Campus Festival</h3>
-                        <p>UNIDA Main Auditorium</p>
-                        <p>Bogor, Indonesia</p>
-                        <a href="#" class="btn">Get Tickets</a>
-                    </div>
-                </div>
-            <div class="gigs-container">
-                <div class="gig-card">
-                    <div class="gig-date">
-                        <h3>June 15, 2023</h3>
-                        <p>8:00 PM</p>
-                    </div>
-                    <div class="gig-info">
-                        <h3>Campus Festival</h3>
-                        <p>UNIDA Main Auditorium</p>
-                        <p>Bogor, Indonesia</p>
-                        <a href="#" class="btn">Get Tickets</a>
-                    </div>
-                </div>
-            <div class="gigs-container">
-                <div class="gig-card">
-                    <div class="gig-date">
-                        <h3>June 15, 2023</h3>
-                        <p>8:00 PM</p>
-                    </div>
-                    <div class="gig-info">
-                        <h3>Campus Festival</h3>
-                        <p>UNIDA Main Auditorium</p>
-                        <p>Bogor, Indonesia</p>
-                        <a href="#" class="btn">Get Tickets</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Instruments Section -->
-    <section id="instruments" class="instruments">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Instruments</h2>
-            </div>
-            <div class="instruments-container">
-                <div class="instrument-card">
-                    <div class="instrument-icon">
-                        <i class="fas fa-guitar"></i>
-                    </div>
-                    <h3>Guitars</h3>
-                    <p>Acoustic, Electric & Bass</p>
-                </div>
-                <div class="instrument-card">
-                    <div class="instrument-icon">
-                        <i class="fas fa-drum"></i>
-                    </div>
-                    <h3>Drums</h3>
-                    <p>Full kit & percussion</p>
-                </div>
-                <div class="instrument-card">
-                    <div class="instrument-icon">
-                        <i class="fas fa-music"></i>
-                    </div>
-                    <h3>Keyboards</h3>
-                    <p>Piano & Synthesizers</p>
-                </div>
-                <div class="instrument-card">
-                    <div class="instrument-icon">
-                        <i class="fas fa-microphone"></i>
-                    </div>
-                    <h3>Vocals</h3>
-                    <p>Lead & Harmony</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <div class="gallery-header" id="galleryHeader">
-                <h2 class="gallery-title">Gallery</h2>
-                <p class="gallery-subtitle">Click to explore our performances</p>
-            </div>
-            
-            <div class="main-gallery-image" id="mainGalleryImage">
-                <div class="image-counter">1/6</div>
-                <img src="" alt="Live Performance" id="currentImage">
-                <div class="image-overlay">
-                    <div class="image-info">
-                        <h3>Live at Campus Festival</h3>
-                        <p>DIMENSI Band performing for enthusiastic audience</p>
-                    </div>
-                </div>
-                <div class="expand-icon">
-                    <i class="fas fa-expand"></i>
-                </div>
-            </div>
-            
-            <div class="gallery-container" id="galleryContainer">
-                <div class="gallery-item" data-title="Stage Performance" data-description="Energizing the crowd with our original composition">
-                    <img src="DIMENSI BAND (64).JPG" alt="Stage Performance">
-                    <div class="gallery-item-overlay">
-                        <i class="fas fa-search view-icon"></i>
-                    </div>
-                </div>
-                <div class="gallery-item" data-title="Studio Session" data-description="Recording our latest tracks in the studio">
-                    <img src="DIMENSI BAND (65).JPG" alt="Studio Session">
-                    <div class="gallery-item-overlay">
-                        <i class="fas fa-search view-icon"></i>
-                    </div>
-                </div>
-                <div class="gallery-item" data-title="Acoustic Set" data-description="Intimate performance at a local cafe">
-                    <img src="DIMENSI BAND (66).JPG" alt="Acoustic Set">
-                    <div class="gallery-item-overlay">
-                        <i class="fas fa-search view-icon"></i>
-                    </div>
-                </div>
-                <div class="gallery-item" data-title="Band Practice" data-description="Rehearsing for our upcoming show">
-                    <img src="DIMENSI BAND (67).JPG" alt="Acoustic Set">
-                        <i class="fas fa-search view-icon"></i>
-                    </div>
-                </div>
-                <div class="gallery-item" data-title="Sound Check" data-description="Preparing for the perfect performance">
-                    <img src="DIMENSI BAND (68).JPG" alt="Sound Check">
-                    <div class="gallery-item-overlay">
-                        <i class="fas fa-search view-icon"></i>
-                    </div>
-                </div>
-                <div class="gallery-item" data-title="Audience Interaction" data-description="Connecting with our amazing fans">
-                    <img src="DIMENSI BAND (69).JPG" alt="Audience Interaction">
-                    <div class="gallery-item-overlay">
-                        <i class="fas fa-search view-icon"></i>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="close-gallery" id="closeGallery">
-                <button class="close-btn">
-                    <i class="fas fa-times"></i> Close Gallery
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Music Player Section -->
-    <section id="music" class="music-player">
-        <div class="container">
-            <div class="section-title">
-                <h2 style="color: white;">Music</h2>
-            </div>
-            <div class="player-container">
-                <div class="player-header">
-                    <div class="album-art">
-                        <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Album Art">
-                    </div>
-                    <div class="track-info">
-                        <h3>D album1</h3>
-                        <p>DIMENSI Band</p>
-                        <p>Album: First Dimension</p>
-                    </div>
-                </div>
-                
-                <div class="player-controls">
-                    <button class="control-btn"><i class="fas fa-step-backward"></i></button>
-                    <button class="control-btn play-btn"><i class="fas fa-play"></i></button>
-                    <button class="control-btn"><i class="fas fa-step-forward"></i></button>
-                </div>
-                
-                <div class="progress-container">
-                    <div class="progress"></div>
-                </div>
-                
-                <div class="time-info">
-                    <span>1:24</span>
-                    <span>4:32</span>
-                </div>
-                
-                <div class="playlist">
-                    <div class="playlist-item active">
-                        <img src="" alt="Track 1">
-                        <div>
-                            <h4>music 1</h4>
-                            <p>DIMENSI Band</p>
-                        </div>
-                    </div>
-                    <div class="playlist-item">
-                        <img src="" alt="Track 2">
-                        <div>
-                            <h4>music 2</h4>
-                            <p>DIMENSI Band</p>
-                        </div>
-                    </div>
-                    <div class="playlist-item">
-                        <img src="" alt="Track 3">
-                        <div>
-                            <h4>music 3</h4>
-                            <p>DIMENSI Band</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Contact Us</h2>
-            </div>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div>
-                            <h3>Location</h3>
-                            <p>UNIDA Campus</p>
-                            <p>West Java, Indonesia</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div>
-                            <h3>Phone</h3>
-                            <p>+62 123 4567 890</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <h3>Email</h3>
-                            <p>dimensi@unida.ac.id</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div>
-                            <h3>Response Time</h3>
-                            <p>Within 24 hours</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" class="form-control" placeholder="Enter subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" class="form-control" placeholder="Enter your message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Media Section -->
-    <section class="social-media">
-        <div class="container">
-            <h2>Follow Us</h2>
-            <p>Stay updated with our latest performances and releases</p>
-            <div class="social-icons">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-spotify"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 DIMENSI Band - UKM Musik UNIDA. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Scroll to top button -->
-    <div class="scroll-to-top" id="scrollToTop">
-        <i class="fas fa-chevron-up"></i>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="DIMENSI home">
+        <span class="brand-mark">D</span>
+        <span class="brand-copy"><strong>DIMENSI</strong><small>UKM MUSIK UNIDA</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <nav class="nav" id="siteNav" aria-label="Navigasi utama">
+        <a href="#story">Story</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#sound">Sound</a>
+        <a class="nav-cta" href="#contact">Booking <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </nav>
     </div>
+  </header>
 
-    <script src="script.js"></script>
+  <main id="top">
+    <section class="hero">
+      <img class="hero-image" src="DIMENSI BAND (105).JPG" alt="DIMENSI Band tampil di atas panggung" fetchpriority="high">
+      <div class="hero-scrim"></div>
+      <div class="hero-noise"></div>
+      <div class="container hero-inner">
+        <div class="eyebrow"><span></span> SOUND • ENERGY • COMMUNITY</div>
+        <h1>We don't just<br><em>play music.</em></h1>
+        <p class="hero-lead">DIMENSI adalah ruang untuk tumbuh, berkarya, dan menciptakan momen yang terasa lebih besar dari sebuah panggung.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#gallery">Explore the band <i class="fa-solid fa-arrow-down"></i></a>
+          <a class="text-link" href="#contact">Bring DIMENSI to your event <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-foot">
+          <span>UNIDA Gontor</span><span class="line"></span><span>Indonesia</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#story" aria-label="Scroll ke Story"><span>SCROLL</span><i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+
+    <section class="statement" id="story">
+      <div class="container statement-grid">
+        <p class="section-kicker reveal">01 / THE STORY</p>
+        <div class="statement-copy reveal">
+          <h2>Born from a campus.<br><span>Built for the stage.</span></h2>
+          <p>DIMENSI Band merupakan bagian dari ekosistem musik Universitas Darussalam Gontor. Kami percaya musik bukan sekadar pertunjukan—ia adalah cara untuk membangun keberanian, kebersamaan, dan identitas.</p>
+          <a class="text-link" href="#experience">See what we do <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="statement-card reveal">
+          <div class="big-number">∞</div>
+          <div><span>THE DIMENSI MINDSET</span><p>Keep creating. Keep learning. Keep the room alive.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="section-kicker">02 / EXPERIENCE</p><h2>More than a band.</h2></div>
+          <p>From rehearsal rooms to campus stages, every appearance is built around one thing: making people feel something.</p>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card reveal"><span class="card-index">01</span><i class="fa-solid fa-music"></i><h3>Live Performance</h3><p>Energetic sets for campus programs, community events, celebrations, and special occasions.</p><span class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></article>
+          <article class="experience-card reveal featured"><span class="card-index">02</span><i class="fa-solid fa-sliders"></i><h3>Creative Sessions</h3><p>Collaborative rehearsals, arrangement, recording preparation, and experimentation across genres.</p><span class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></article>
+          <article class="experience-card reveal"><span class="card-index">03</span><i class="fa-solid fa-users"></i><h3>Music Community</h3><p>A space for musicians to learn from one another and grow through real stage experience.</p><span class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-heading gallery-heading reveal">
+          <div><p class="section-kicker">03 / VISUAL ARCHIVE</p><h2>Moments in motion.</h2></div>
+          <button class="gallery-launch" id="galleryLaunch">Open full gallery <i class="fa-solid fa-expand"></i></button>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <button class="gallery-item gallery-large reveal" data-index="0"><img src="DIMENSI BAND (105).JPG" alt="DIMENSI performance" loading="lazy"><span>LIVE / 01</span></button>
+          <button class="gallery-item reveal" data-index="1"><img src="DIMENSI BAND (106).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 02</span></button>
+          <button class="gallery-item reveal" data-index="2"><img src="DIMENSI BAND (107).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 03</span></button>
+          <button class="gallery-item reveal" data-index="3"><img src="DIMENSI BAND (108).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 04</span></button>
+          <button class="gallery-item reveal" data-index="4"><img src="DIMENSI BAND (109).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 05</span></button>
+          <button class="gallery-item reveal" data-index="5"><img src="DIMENSI BAND (110).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 06</span></button>
+          <button class="gallery-item reveal" data-index="6"><img src="DIMENSI BAND (111).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 07</span></button>
+          <button class="gallery-item reveal" data-index="7"><img src="DIMENSI BAND (112).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 08</span></button>
+          <button class="gallery-item reveal" data-index="8"><img src="DIMENSI BAND (113).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 09</span></button>
+          <button class="gallery-item reveal" data-index="9"><img src="DIMENSI BAND (114).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 10</span></button>
+          <button class="gallery-item reveal" data-index="10"><img src="DIMENSI BAND (115).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 11</span></button>
+          <button class="gallery-item reveal" data-index="11"><img src="DIMENSI BAND (116).JPG" alt="DIMENSI band" loading="lazy"><span>LIVE / 12</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sound" id="sound">
+      <div class="sound-orbit" aria-hidden="true"></div>
+      <div class="container sound-grid">
+        <div class="reveal"><p class="section-kicker">04 / THE SOUND</p><h2>Turn it up.<br><em>Feel the room.</em></h2><p class="sound-copy">Website ini siap menjadi rumah digital DIMENSI. Tinggal masukkan karya audio resmi saat file lagu sudah tersedia—tanpa perlu mengubah ulang tampilan player.</p></div>
+        <div class="player-card reveal">
+          <div class="player-top"><span class="live-dot"></span><span>DIMENSI PLAYER</span><span class="mono">01 — 03</span></div>
+          <div class="waveform" aria-hidden="true">|||||| ||| ||||||||| || |||||| ||| |||||||||||| ||| |||||| || |||||</div>
+          <div class="player-track"><div class="track-art">D</div><div><strong>DIMENSI — Original Sessions</strong><span>Official audio coming soon</span></div><button class="play-button" id="playButton" aria-label="Preview player"><i class="fa-solid fa-play"></i></button></div>
+          <div class="player-progress"><span></span></div><div class="player-meta"><span>00:00</span><span>04:32</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal"><p class="section-kicker">05 / CONTACT</p><h2>Let’s make<br><em>some noise.</em></h2><p class="contact-copy">Punya acara, kolaborasi, atau project musik? Ceritakan kebutuhanmu. Kami akan menyiapkan respons terbaik dari tim DIMENSI.</p><div class="contact-meta"><a href="mailto:dimensi@unida.ac.id">dimensi@unida.ac.id</a><span>UNIDA Gontor • Indonesia</span></div></div>
+        <form class="contact-form reveal" id="contactForm">
+          <label>Nama<input name="name" type="text" placeholder="Nama kamu" required></label>
+          <label>Email<input name="email" type="email" placeholder="nama@email.com" required></label>
+          <label>Pesan<textarea name="message" rows="5" placeholder="Ceritakan tentang acaramu..." required></textarea></label>
+          <button class="button button-primary" type="submit">Send inquiry <i class="fa-solid fa-arrow-right"></i></button>
+          <small>Form akan membuka aplikasi email kamu dengan pesan yang sudah disiapkan.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#top"><span class="brand-mark">D</span><span class="brand-copy"><strong>DIMENSI</strong><small>UKM MUSIK UNIDA</small></span></a><p>© <span id="year"></span> DIMENSI. Keep creating.</p><div class="footer-social"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></div></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" id="lightboxClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button><button class="lightbox-nav prev" id="prevImage" aria-label="Foto sebelumnya"><i class="fa-solid fa-arrow-left"></i></button><figure><img id="lightboxImage" src="" alt=""><figcaption><span id="lightboxCount">01 / 12</span><strong id="lightboxCaption">DIMENSI / LIVE</strong></figcaption></figure><button class="lightbox-nav next" id="nextImage" aria-label="Foto berikutnya"><i class="fa-solid fa-arrow-right"></i></button></div>
+  <button class="back-top" id="backTop" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
 </body>
 </html>
